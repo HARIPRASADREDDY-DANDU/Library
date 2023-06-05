@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
+body{
+    background-color: rgb(35, 34, 34);
+    font-family: 'Chivo Mono', monospace;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: aliceblue;
+    user-select: none;
+}
+nav{
+    height: fit-content;
+    font-family: 'Chivo Mono', monospace;
+    border-bottom: solid;
+    border-color: rgb(255, 123, 0);
+    padding: 20px;
+}
+
+
+.logoi{
+    text-decoration: none;
+    color: aliceblue;
+    width: fit-content;
+    font-size:x-large;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    column-gap: 30px;
+    float: right;
+    margin-top: -24px;
+    height: 45px;
+}
+li{
+    width: fit-content;
+}
+.nav-items{
+    color: aliceblue;
+    text-decoration: none;
+}
+h1{
+    width: fit-content;
+}
+.logo-a:hover,.logo:hover,.nav-items:hover{
+    color: rgb(255, 123, 0);
+    transition: 0.3s ease-in-out;
+}
+.main{
+    display: flex;
+    column-gap: 80px;
+    padding: 20px;
+}
+.image{
+    opacity: 30%;
+    border-style: none;
+    border-radius: 15px;
+}
+img:hover{
+    opacity: 100%;
+}
+.title{
+    width: 100%;
+    /* border: 3px solid red; */
+    text-align: center;
+    padding: 5px;
+}
+.lovehead{
+    color: rgb(244, 53, 237);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.abt{
+    width: 100%;
+    height: 70vh;
+    border-bottom-style: solid;
+    border-color: rgb(255, 123, 0);
+
+}
+.abt-txt-l{
+    width: 70%;
+    text-align: center;
+    float: left;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+.r-img{
+    float: right;
+    width: 22%;
+    padding: 30px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 30px;
+}
+.habt{
+    border-bottom: solid;
+    border-color: rgb(255, 123, 0);
+    padding: 30px;
+}
+.img-r{
+    padding: 30px;
+    opacity: 100%;
+    border-style: none;
+    border-radius: 100px;
+}
+.lovehead{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.txt-l{
+    padding: 30px;
+}
+.abt-txt-r{
+    width: 40%;
+    float: right;
+    border-style: solid;
+    border-radius: 30px;
+    /* margin-top: 5%; */
+}
+.txt-r{
+    padding: 30px;
+    text-align: center;
+}
+.l-img{
+    width: 59%;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+.img-l{
+    padding: 30px;
+    border-radius: 50px;
+}
+.ab{
+    height: 95vh;
+    border-bottom: solid;
+    border-color: rgb(255, 123, 0);
+    /* border-color: ; */
+}
+.m-txt{
+    border-style: solid;
+    border-radius: 20px;
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+}
+.m-img{
+    border-style: solid;
+    border-radius: 20px;
+    float: right;
+    width: 59%;
+    margin-top: 10%;
+}
+.txt-m{
+    padding: 30px;
+    text-align: center;
+}
+.marriage{
+    height: 120vh;
+    border-bottom-style: solid;
+    border-color: rgb(255, 123, 0);
+}
+.con{
+    height: 10vh;
+    margin-top: 10vh;
+}
+.ri-abt{
+    border-style: solid;
+    width: 50%;
+    float: left;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.ri-imaf{
+    border-style: solid;
+    width: 48%;
+    float: right;
+    border-radius: 20px;
+}
+.rider{
+    border-bottom-style: solid;
+    height: 70vh;
+}
+video{
+    padding: 40px;
+}
+.rider-txt{
+    padding: 20px;
+}
+.movie-titile{
+    width: 100%;
+    text-align: center;
+}
+.p-head{
+    width: 100%;
+    border-style: solid;
+}
+.pubg-i{
+    width: 1400px;
+    padding: 30px;
+    opacity: 50%;
+}
+.image-txt{
+    margin-top: 18%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-pubg{
+    padding: 20px;
+    font-family: 'Chivo Mono', monospace;
+    border-style: none;
+    border-radius: 10px;
+    color: linear-gradient(to bottom right,rgb(255, 115, 0), rgb(54, 240, 194));
+    background: linear-gradient(to bottom right,rgb(255, 115, 0), rgb(54, 240, 194));
+}
+
+.ride{
+    border-bottom-style: solid;
+    height: 70vh;
+}
+.ri-cont{
+    float: right;
+    width: 48%;
+    text-align: center;
+    margin-top: 40px;
+}
+.imagerider{
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 20px;
+}
+.ri-txt{
+    padding: 30px;
+}

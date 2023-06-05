@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
+body{
+    background-color: rgb(35, 34, 34);
+    margin-left: 30px;
+    margin-right: 30px;
+    color: aliceblue;
+}
+nav{
+    height: fit-content;
+    font-family: 'Chivo Mono', monospace;
+    border-bottom: solid;
+    border-color: rgb(255, 123, 0);
+    padding: 20px;
+}
+
+
+.logoi{
+    text-decoration: none;
+    color: aliceblue;
+    width: fit-content;
+    font-size:x-large;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    column-gap: 30px;
+    float: right;
+    margin-top: -24px;
+    height: 45px;
+}
+li{
+    width: fit-content;
+}
+.nav-items{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* h1{
+    width: fit-content;
+} */
+.logo-a:hover,.logo:hover,.nav-items:hover{
+    color: rgb(255, 123, 0);
+    transition: 0.3s ease-in-out;
+}
+.mindex{
+    height: 70px;
+    margin-bottom: -25px;
+    margin-left: 22px;
+}
+.rib{
+    border-bottom-style: solid;
+    border-color: rgb(255, 123, 0);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin-top: -81px;
+    column-gap: 52px;
+    margin-right: 22px;
+    
+}
+.star{
+    margin-top: -24px;
+    margin-left: -6px;
+}
+.ti{
+    font-size: x-large;
+    color: rgb(255, 234, 0);
+}
+.rate{
+    margin-top: -36px;
+    margin-left: 16px;
+}
+.pop{
+    font-size: x-large;
+}
+.arrow{
+    margin-top: -24px;
+}
+.iv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    padding-top: 20px;
+    margin-top: -40px;
+}
+.Trailer{
+    font-family: 'Chivo Mono', monospace;
+    text-align: center;
+    height: 30px;
+    font-size: larger;
+}
+.hints{
+    display: flex;
+    flex-direction: row;
+    column-gap: 13px;
+}
+.hintitems{
+    border-style: solid;
+    padding: 7px;
+    border-radius: 20px;
+    border-width: 1px;
+    font-size: 12px;
+}
+.hintitems:hover{
+    color: rgb(255, 123, 0);
+    transition: 0.3s all;
+}
+.det{
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: rgb(255, 123, 0);
+}
+.desc{
+    width: 50%;
+}
+.descont{
+    font-family: 'Chivo Mono', monospace;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-color: rgb(230, 229, 146);
+}
+.descot{
+    font-family: 'Chivo Mono', monospace;
+}
+.spname{
+    color: aqua;
+    margin-left: 10px;
+}
+.topim{
+    display: flex;
+    flex-direction: row;
+    column-gap: 210px;
+}
+.totjoh{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.jo{
+    border-style: none;
+    border-radius: 50%;
+}
+.imtxt{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.jnames{
+    margin-top: -20px;
+}
